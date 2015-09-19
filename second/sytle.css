@@ -3,5 +3,51 @@ body{
 }
 body > div{
 	background-color: white;
-	
+}
+.first{
+	height: 12em;
+}
+.first > div{
+  display:inline-block;
+  width: 10%;
+  text-align:center;
+  border: 1px solid black;
+  position:absolute;
+  bottom: 1em;
+  color: white;
+  font-family: Arial;
+}
+#red{
+  background-color:red;
+  margin-left: 1em;
+}
+#blue{
+  background-color:blue;
+  margin-left: 10em;
+}
+#text{
+  position: absolute;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.second{
+  height: 30em;
+}
+.second > div{
+  height: 15em;
+  width: 50%;
+  background-color:gray;
+  margin: auto;
+  margin-top: em;
+  text-align: center;
+ 
+}
+#text2{
+  margin-top: 20em;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+footer{
+  bottom: 0px;
+  background-color:#3c3c3c;
 }
